@@ -7,5 +7,8 @@ public class Main {
 //           //int [][] dungeons = { {80, 20}, {30,10}, {50,40} };
 //          System.out.println(solv.solution(80, dungeons));
 
+        Solution3 solTest = new Solution3();
+        int Test = solTest.solution(10, 5);
+        System.out.println(Test);
     }
 }
