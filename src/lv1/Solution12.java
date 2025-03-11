@@ -1,3 +1,5 @@
+package lv1;
+
 public class Solution12 {
     public double solution(int[] arr) {
         double answer = 0;

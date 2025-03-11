@@ -1,3 +1,5 @@
+package lv1;
+
 public class Solution10 {
 
     public double solution(int[] numbers) {

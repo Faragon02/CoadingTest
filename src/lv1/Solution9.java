@@ -1,3 +1,5 @@
+package lv1;
+
 public class Solution9 {
     public int solution(int n) {
         int answer = 0;

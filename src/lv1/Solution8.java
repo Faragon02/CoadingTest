@@ -1,3 +1,5 @@
+package lv1;
+
 public class Solution8 {
     public int solution(int angle) {
         int answer = 0;
