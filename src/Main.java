@@ -1,4 +1,4 @@
-import lv1.Solution10;
+import lv1.Solution13;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -9,9 +9,7 @@ public class Main {
 //           //int [][] dungeons = { {80, 20}, {30,10}, {50,40} };
 //          System.out.println(solv.solution(80, dungeons));
 
-        Solution10 solTest = new Solution10();
-        int[] test = {1,2,3,4,5,6,7,8,9, 10};
-        double Test = solTest.solution(test);
-        System.out.println(Test);
+        Solution13 solTest = new Solution13();
+        double Test = solTest.solution(123);
     }
 }
