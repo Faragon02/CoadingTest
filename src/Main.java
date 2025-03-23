@@ -1,5 +1,5 @@
-import lv1.Solution20;
-import lv1.Solution21;
+
+import lv1.Solution22;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -10,8 +10,8 @@ public class Main {
 //           //int [][] dungeons = { {80, 20}, {30,10}, {50,40} };
 //          System.out.println(solv.solution(80, dungeons));
 
-        Solution21 solTest = new Solution21();
+        Solution22 solTest = new Solution22();
 
-        System.out.println(solTest.solution(13));
+        System.out.println(solTest.solution(5, 3));
     }
 }
