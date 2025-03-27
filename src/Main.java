@@ -1,7 +1,5 @@
 
-import lv1.Solution24;
-import lv1.Solution25;
-import lv1.Solution26;
+import lv1.Solution27;
 
 import java.util.Arrays;
 
@@ -14,9 +12,7 @@ public class Main {
 //           //int [][] dungeons = { {80, 20}, {30,10}, {50,40} };
 //          System.out.println(solv.solution(80, dungeons));
 
-        Solution26 solTest = new Solution26();
-        int[] arr = new int[]{1,2,3};
-        boolean[] signs = new boolean[]{false,false,true};
-        System.out.println(solTest.solution(arr, signs));
+        Solution27 solTest = new Solution27();
+        System.out.println(solTest.solution("01033334444"));
     }
 }
