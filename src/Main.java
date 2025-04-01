@@ -1,6 +1,7 @@
 
 import lv1.Solution30;
 import lv2.Solution31;
+import lv2.Solution32;
 
 import java.util.Arrays;
 
@@ -9,8 +10,8 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        Solution31 solTest = new Solution31();
+        Solution32 solTest = new Solution32();
 
-        System.out.println(solTest.solution(1));
+        System.out.println(solTest.solution(new int[]{1,2,3,4}, new int[]{-3,-1,0,2}));
     }
 }
