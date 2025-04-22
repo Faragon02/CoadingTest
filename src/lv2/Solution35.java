@@ -5,9 +5,12 @@ public class Solution35 {
         long answer = -1;
         long totalPrice = 0;
         for(int i = 1; i<= count; i++) {
-//            totalPrice += (Long) (price *i);
+            totalPrice = (price *i);
         }
         answer = totalPrice - money;
+        if(money > totalPrice){
+            answer = 0;
+        }
         return answer;
     }
 }
